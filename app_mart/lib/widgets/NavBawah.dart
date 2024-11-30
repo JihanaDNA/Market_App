@@ -1,8 +1,7 @@
+import 'package:app_mart/pages/AddPage.dart';
 import 'package:flutter/material.dart';
 import 'package:app_mart/pages/HomePage.dart';
 import 'package:app_mart/pages/CartPage.dart';
-
-
 
 
 class Navbawah extends StatelessWidget {
@@ -28,7 +27,7 @@ class _NavbarwidgetState extends State<NavBawah> {
   final List<Widget> _children = [
     Homepage(),
     Cartpage(),
-    // Addpage(),
+    Addpage(),
 
   ];
 

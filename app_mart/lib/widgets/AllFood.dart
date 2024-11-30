@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// ini udah ga kepake
+
 class Allfood extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
